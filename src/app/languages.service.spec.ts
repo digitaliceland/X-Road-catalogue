@@ -26,22 +26,22 @@ describe('LanguagesService', () => {
     spyOn(translateService, 'setDefaultLang');
     spyOn(window.localStorage, 'getItem').and.returnValue(undefined);
     TestBed.get(LanguagesService);
-    expect(translateService.setDefaultLang).toHaveBeenCalledWith('est');
+    expect(translateService.setDefaultLang).toHaveBeenCalledWith('isl');
   });
 
   it('should set default lang from localStorage', () => {
     const translateService: TranslateService = TestBed.get(TranslateService);
     spyOn(translateService, 'setDefaultLang');
-    spyOn(window.localStorage, 'getItem').and.returnValue('ENG');
+    spyOn(window.localStorage, 'getItem').and.returnValue('ISL');
     TestBed.get(LanguagesService);
-    expect(translateService.setDefaultLang).toHaveBeenCalledWith('eng');
+    expect(translateService.setDefaultLang).toHaveBeenCalledWith('isl');
   });
 
   it('should set language', () => {
     const translateService: TranslateService = TestBed.get(TranslateService);
     spyOn(translateService, 'use');
     const service = TestBed.get(LanguagesService);
-    service.setLang('ENG');
-    expect(translateService.use).toHaveBeenCalledWith('eng');
+    service.setLang('ISL');
+    expect(translateService.use).toHaveBeenCalledWith('isl');
   });
 });

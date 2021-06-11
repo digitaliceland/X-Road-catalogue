@@ -1,5 +1,7 @@
 # X-tee subsystems and methods catalogue
 
+Fork from https://koodivaramu.eesti.ee/x-tee/x-road-catalogue, with the addition of perliminary Icelandic translations and configuration for the [Icelandic X-Road instances](https://island.is/straumurinn).  The corresponding [X-Road-catalogue-collector](https://koodivaramu.eesti.ee/x-tee/x-road-catalogue-collector) is used unmodified.
+
 ## Building
 
 ```

@@ -7,15 +7,15 @@
         "50": 50
     },
     "INSTANCES": {
-        "EE": "https://www.x-tee.ee/catalogue-data/EE/",
-        "ee-test": "https://www.x-tee.ee/catalogue-data/ee-test/",
-        "ee-dev": "https://www.x-tee.ee/catalogue-data/ee-dev/"
+        "IS": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS/",
+        "IS-TEST": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-TEST/",
+        "IS-DEV": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-DEV/"
     },
     "API_SERVICE": "index.json",
     "API_HISTORY": "history.json",
     "HISTORY_LIMIT": 30,
     "LANGUAGES": {
-        "EST": "est",
+        "ISL": "isl",
         "ENG": "eng"
     },
     "PREVIEW_SIZE": 5,
