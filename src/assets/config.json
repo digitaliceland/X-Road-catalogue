@@ -7,9 +7,9 @@
         "50": 50
     },
     "INSTANCES": {
-        "IS": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS/",
-        "IS-TEST": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-TEST/",
-        "IS-DEV": "http://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-DEV/"
+        "IS": "https://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS/",
+        "IS-TEST": "https://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-TEST/",
+        "IS-DEV": "https://api-catalog.x-road-monitoring.island.is/Straumurinn-catalogue-data/IS-DEV/"
     },
     "API_SERVICE": "index.json",
     "API_HISTORY": "history.json",
